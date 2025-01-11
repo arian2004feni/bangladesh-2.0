@@ -198,3 +198,52 @@ a{
   position: absolute;
   top: 24px;
 }
+
+.faq-container{
+  border-radius: 16px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+}
+
+.faq-head th{
+  padding: 24px;
+  text-align: left;
+  border: none;
+  background: rgb(198, 228, 214);
+}
+
+.faq-head th:last-child{
+  padding-left: 0;
+}
+
+.faq-head th h3{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.faq-topics td{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 24px;
+}
+
+.faq-select{
+  text-align: center;
+}
+
+select, option{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  padding: 10px 14px;
+}
