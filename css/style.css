@@ -49,6 +49,10 @@ a{
   margin: 12px 0;
 }
 
+.my-m{
+  margin: 32px 0;
+}
+
 .mb-lg{
   margin-bottom: 40px;
 }
@@ -66,6 +70,10 @@ a{
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .navbar {
@@ -282,3 +290,112 @@ select, option{
   margin-top: 24px;
 }
 
+.pricing-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.pricing-box-container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.pricing-box{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.pricing-box:nth-child(2){
+  background: rgb(198, 228, 214);
+}
+
+.pricing-heading{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.pricing-btn{
+  display: block;
+  background: white;
+  text-align: center;
+  width: 80%;
+  padding: 20px 40px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.subscribe-newsletter{
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+input:first-child{
+  padding: 18px 40px;
+  display: inline-block;
+  width: 600px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+}
+
+input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+input:last-child{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 13px 34px 15px 34px;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  transform: translateX(-4px);
+}
+
+.footer-logo{
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+
+footer{
+  background: #fff;
+}
+
+.footer-container {
+  padding: 50px 160px;
+  width: 1280px;
+  margin: 0 auto;
+
+}
+
+footer hr {
+  margin: 32px 0;
+}
+
+.social-icon{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
