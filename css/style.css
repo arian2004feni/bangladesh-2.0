@@ -24,6 +24,13 @@ a{
   color: #0e0e0e;
 }
 
+.btn{
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
 .primary-heading{
   font-size: 40px;
   line-height: 48px;
@@ -36,6 +43,10 @@ a{
   line-height: 24px;
   font-weight: 700;
   margin: 24px 0 12px 0;
+}
+
+.my-sm{
+  margin: 12px 0;
 }
 
 .mb-lg{
@@ -71,11 +82,7 @@ a{
 .navbar .nav-btn{
   padding: 15px 30px;
   color: rgb(0, 106, 80);
-  border-radius: 8px;
   border: 1px solid rgb(0, 106, 80);
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 600;
 }
 
 .hero-section {
@@ -90,14 +97,14 @@ a{
   margin-top: 36px;
 }
 
-.hero-content .hero-title{
+.hero-title{
   font-size: 24px;
   line-height: 29px;
   font-weight: 500;
   margin-bottom: 16px;
 }
 
-.hero-content .hero-heading{
+.hero-heading{
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
@@ -105,13 +112,9 @@ a{
   margin-bottom: 40px;
 }
 
-.hero-content .hero-btn{
-  border-radius: 8px;
+.hero-btn{
   background: rgb(0, 106, 80);
   color: white;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 600;
   padding: 17px 34px;
 }
 
@@ -144,7 +147,6 @@ a{
 .card-btn{
   color: white;
   padding: 11px 20px;
-  border-radius: 8px;
   background: rgb(84, 144, 245);
   font-size: 16px;
   font-weight: 600;
@@ -242,8 +244,41 @@ select, option{
   font-size: 16px;
   font-weight: 600;
   line-height: 19px;
-  border: 1px solid rgb(14, 14, 14);
+  border: 1px solid rgba(14, 14, 14, 0.2);
   border-radius: 4px;
   background: rgb(198, 228, 214);
   padding: 10px 14px;
 }
+
+.news-blog-container{
+  padding: 48px;
+  border-radius: 24px;
+  background-color: #fff;
+  display: flex;
+  gap: 32px;
+}
+
+.blog-image-box img{
+  border-radius: 24px;
+}
+
+.blog-heading{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 12px;
+}
+
+.blog-btn{
+  padding: 13px 26px;
+  background: rgb(0, 106, 80);
+  color: #fff;
+  font-weight: 500;
+}
+
+.news-blog-container:not(:first-child){
+  margin-top: 24px;
+}
+
