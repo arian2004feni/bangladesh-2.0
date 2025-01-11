@@ -97,6 +97,12 @@ select, option, .pricing-box {
   border: 1px solid rgb(0, 106, 80);
 }
 
+.nav-btn:hover{
+  background: rgb(0, 106, 80);
+  color: white;
+  transition: 0.2s;
+}
+
 .hero-section {
   border-radius: 24px;
   background: rgb(198, 228, 214);
@@ -130,6 +136,10 @@ select, option, .pricing-box {
   padding: 17px 34px;
 }
 
+.hero-btn:hover{
+  background: rgb(0, 88, 66);
+}
+
 .pillars-card-container{
   display: flex;
   justify-content: space-between;
@@ -141,6 +151,15 @@ select, option, .pricing-box {
   background-color: white;
   border-radius: 16px;
   padding: 24px;
+  transition: 0.2s;
+}
+
+.pillars-cards{
+  flex-basis: 100%;
+}
+
+.pillars-cards:hover{
+  background: rgb(198, 228, 214);
 }
 
 .vision-card-container{
@@ -169,6 +188,11 @@ select, option, .pricing-box {
   background: rgba(84, 144, 245, 0.2);
 }
 
+.card-1:hover .card-btn{
+  background: rgb(32, 109, 241);
+  transition: 0.2s;
+}
+
 .card-1 .paragraph{
   margin-bottom: 40px;
 }
@@ -185,6 +209,11 @@ select, option, .pricing-box {
   background-color: rgb(9, 161, 92);
 }
 
+.card-2:hover .card-btn{
+  background-color: rgb(0, 106, 80);
+  transition: 0.2s;
+}
+
 .card-3{
   background: rgb(247, 235, 207);
 }
@@ -196,6 +225,10 @@ select, option, .pricing-box {
 
 .card-3 .card-btn{
   background-color: rgb(255, 194, 57);
+}
+
+.card-3:hover .card-btn{
+  background-color: rgb(255, 179, 0);
 }
 
 .vision-testimonial{
@@ -262,6 +295,12 @@ select, option{
   padding: 10px 14px;
 }
 
+select:hover{
+  transition: 0.2s;
+  background: rgb(8, 134, 77);
+  color: #fff;
+}
+
 .news-blog-container{
   padding: 48px;
   border-radius: 24px;
@@ -272,6 +311,8 @@ select, option{
 
 .blog-image-box img{
   border-radius: 24px;
+  width: 400px;
+  /* height: 300px; */
 }
 
 .blog-heading{
@@ -288,6 +329,11 @@ select, option{
   background: rgb(0, 106, 80);
   color: #fff;
   font-weight: 500;
+}
+
+.blog-btn:hover{
+  transition: 0.2s;
+  background: rgb(0, 82, 63);
 }
 
 .news-blog-container:not(:first-child){
@@ -318,6 +364,16 @@ select, option{
   background: rgb(198, 228, 214);
 }
 
+.pricing-box:nth-child(2):hover{
+  transition: 0.2s;
+  background: rgb(255, 255, 255);
+}
+
+.pricing-box:hover{
+  background: rgb(198, 228, 214);
+  transition: 0.2s;
+}
+
 .pricing-heading{
   color: rgba(14, 14, 14, 0.8);
   font-size: 40px;
@@ -335,6 +391,12 @@ select, option{
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.pricing-btn:hover{
+  transition: 0.2s;
+  background: rgb(198, 228, 214);
+  color: rgba(255, 255, 255, 1);
 }
 
 .subscribe-newsletter{
@@ -372,6 +434,11 @@ input:last-child{
   border-radius: 0px 8px 8px 0px;
   background: rgb(0, 106, 80);
   transform: translateX(-4px);
+}
+
+input:hover:last-child{
+  transition: 0.2s;
+  background: rgb(0, 82, 63);
 }
 
 .footer-logo{
